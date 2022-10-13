@@ -1,0 +1,17 @@
+Aula 3 - 29/9/2022
+
+122(10) = 1 × 10^2 + 2 × 10^1 + 2 × 10^0 
+
+122(10) => "122 na base 10"
+10^2; 10^1; 10^0 => potências na base 10, neste caso
+
+1101(2) = 1 x 2^3 + 1 x 2^2 + 0 x 2^1 + 1 x 2^0= 8+4+0+1= 13
+
+0110 1101(2) = 0x 2^7 + 1 x2^6 + 1x 2^5 + 0x 2^4 + 1x 2^3 + 1x 2^2 + 0x 2^1 + 1x2^0 +  = 2^6 + 2^5 + 2^3 + 2^2 + 1 = 64 + 32 + 8 + 4 + 1 = 109
+ Nota: os nºs, strings, chars são armazenados no computador em binário
+        ex: val x: Int = 0b01101101
+            val y: Int = 0x6D (hexadecimal)
+            println(x) // 109 <-- Base 10
+            println(y) // 109
+
+-4(10)= invert(3(10)) = invert (0000 0011(2)) = 1111 1100(2)

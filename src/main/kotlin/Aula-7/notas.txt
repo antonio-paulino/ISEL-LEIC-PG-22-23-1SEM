@@ -1,0 +1,36 @@
+A função, ou funções, podem ficar acima ou abaixo de `Aula-6`.`Aula-3`.main, ou dentro de outro ficheiro, desde que o ficheiro esteja na mesma pasta.
+Outras formas de escrever a função celsiusToFarenheit:
+fun celsiusToFarenheit (celsius: Double) = celsius*1.8 +32
+
+ou
+
+fun celsiusToFahrenheit(...) : Double{
+return celsius*1.8 + 32
+}
+
+VER MYFUNCTIONS.KT E MAIN.KT
+
+
+
+for each
+
+list.forEach{
+    println(it)
+   }          |
+       palavra reservada
+
+faz a mesma coisa q um for ou while:
+for(i in list)
+println(i)
+
+ou
+
+for(i in 0..list.lastIndex())
+    println(list[i]
+ i=i+1
+
+ou var i=0
+while (i<listsize){
+    println(list[i]
+    i=1+i
+}

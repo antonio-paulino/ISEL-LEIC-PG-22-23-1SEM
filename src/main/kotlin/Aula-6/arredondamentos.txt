@@ -1,0 +1,7 @@
+Fazer immplementações alternativas dos exercicios da 1ªa série com funções
+como arredondar a 2 casa decimais ?
+val amount : Double = 3.141593
+val quantint: Int = amount*100.toInt() || *100 indica as casas decimais 
+                                ou .roundToInt()
+val amountRounded: Double= quantint.toDouble / 100.0
+                                                2 casas 
