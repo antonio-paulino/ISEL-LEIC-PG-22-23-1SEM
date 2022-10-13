@@ -6,22 +6,27 @@ fun main() {
     println("Indique a quantia em Euros")
     var amount: Double = readln().toDouble()
     val amountCent: Int =  (amount*100).roundToInt()
-    val m1 = amount%1
     val m200 = amountCent/200
     val remainder = amountCent%200
     val m100 = remainder/100
-    val rem = 0
+    val rem = remainder%100
+    val m50 = rem/50
+    val rem2= rem%50
+    val m20 = rem2/20
+    val rem3 = rem%20
+    val m10 = rem3/10
+    val rem4= rem3%10
+    val m5 =rem4/5
+    val rem5= rem4%5
+    val m2 = rem5/2
+    val rem6 = rem5%2
+    val m1 = rem6/1
 
 
-   val m50 = 0
-   val m20 = 0
-  val m10 = 0
-   val m5 = 0
-    val m2 =0
     println(" 1c $m1")
 //    println(" 10c $m10")
 //   println(" 20c $m20")
- ////   println(" 50c $m50")
+   println(" 50c $m50")
     println(" 1e $m100")
     println(" 2e $m200")
 
