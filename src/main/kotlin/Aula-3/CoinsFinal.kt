@@ -24,8 +24,6 @@ fun main() {
 
 
     println(" 1c $m1")
-//    println(" 10c $m10")
-//   println(" 20c $m20")
    println(" 50c $m50")
     println(" 1e $m100")
     println(" 2e $m200")
