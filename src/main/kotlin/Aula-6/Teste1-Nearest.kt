@@ -1,3 +1,5 @@
+package `Aula-6`
+
 import kotlin.math.*
 
 fun main() {

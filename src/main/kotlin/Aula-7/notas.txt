@@ -1,4 +1,4 @@
-A função, ou funções, podem ficar acima ou abaixo de `Aula-6`.`Aula-3`.main, ou dentro de outro ficheiro, desde que o ficheiro esteja na mesma pasta.
+A função, ou funções, podem ficar acima ou abaixo de `Aula-6`.`Aula-3`.`Aula-6`.main, ou dentro de outro ficheiro, desde que o ficheiro esteja na mesma pasta.
 Outras formas de escrever a função celsiusToFarenheit:
 fun celsiusToFarenheit (celsius: Double) = celsius*1.8 +32
 
