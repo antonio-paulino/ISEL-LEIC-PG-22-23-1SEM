@@ -98,7 +98,7 @@ fun main() {
     if (m1>0){
         if (first == false){
             print("+")
-            print("$m1 x 0.01")
+            print("$m1 x 0.01 Eur")
         }
         else{
             first = false

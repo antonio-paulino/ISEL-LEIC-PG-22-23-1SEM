@@ -4,13 +4,13 @@ import kotlin.math.*
 
 fun main() {
     println("Numero?")
-    val n1: Double = readln().toDouble()
+    val n1: Int = readln().toInt()
     println("Numero?")
-    val n2: Double = readln().toDouble()
+    val n2: Int = readln().toInt()
     println("Numero?")
-    val n3: Double = readln().toDouble()
+    val n3: Int = readln().toInt()
     println("Numero?")
-    val n4: Double = readln().toDouble()
+    val n4: Int = readln().toInt()
     val diff = abs(n1 - n2)
     val diff2 = abs(n1 - n3)
     val diff3 = abs(n1 - n4)
