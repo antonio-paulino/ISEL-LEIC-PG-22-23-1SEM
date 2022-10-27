@@ -1,0 +1,29 @@
+1. fun read2chars(question:String):List<Char> - Lê uma string, seleciona 2 chars da string e devolve numa lista
+
+
+2. fun read2numbers(question:String):List<Int> - Lê uma string de numeros e seleciona 2 e devolve numa lista
+
+
+
+3. fun readnumbers(question:String):List<Int> - Lê qualquer numero e devolve em lista
+
+
+
+4. fun print(list:List<Char>) - print a cada elemento da lista -- criar lista na função
+
+
+5. fun list<Char>.print() - criar a lista na main
+
+
+6. fun String.split(delimiters:String): List<String> pode assumir, numa primeira implementa são, que contém o espaço
+
+
+
+
+experessão lambda, ultima linha das chavetas é o retorno da função
+
+para a semana
+
+val f:(Char)->Int ={ch:Char ->
+                            ch.digitToInt()
+                            }
