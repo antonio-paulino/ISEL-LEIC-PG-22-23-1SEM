@@ -1,12 +1,14 @@
-1. fun read2chars(question:String):List<Char> - Lê uma string, seleciona 2 chars da string e devolve numa lista
+1. fun read2chars(question:String):List<Char> - Lê uma string, seleciona 2 chars da string e devolve numa lista -fazer 2 readlines - assumir que são introduzidas 2 linhas(um char ou int em cada linha)
+ex - question "introduza 2 chars"
 
 
 2. fun read2numbers(question:String):List<Int> - Lê uma string de numeros e seleciona 2 e devolve numa lista
 
 
 
-3. fun readnumbers(question:String):List<Int> - Lê qualquer numero e devolve em lista
-
+3. fun readnumbers(question:String):List<Int> - Lê qualquer numero e devolve em lista pode usar string.split()
+Introduzido numa unica linha ex: 123 64 35 22 13
+usa map
 
 
 4. fun print(list:List<Char>) - print a cada elemento da lista -- criar lista na função
